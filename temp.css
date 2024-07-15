@@ -80,3 +80,12 @@
     padding-top: 70px;
     color: #fff;
 }
+
+
+@media only screen and (max-width: 1030px) {
+    .main {
+        height: 200vh;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+  }
