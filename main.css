@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color: rgb(182, 178, 178);
+    font-size: 24px;
+}
+
+.nav_list li{
+    list-style: none;
+}
+
+.items{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    margin: 25px 5px;
+    border-radius: 10px;
+}
+
+contents{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+.temp_con{
+   text-align: center;
+}
+
+.temp_con img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.temp_con h1,img{
+    padding: 5px;
+}
